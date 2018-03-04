@@ -1,0 +1,150 @@
+
+/* NAVBAR */
+
+/* .navbar {
+    min-height: 80px;
+} */
+
+.navbar-default {
+    background: #fff;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 0;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+.active {
+    border-bottom: 2px solid #b93833;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background: #fff;
+}
+
+.navbar-header {
+    width: 30%;
+}
+
+.navbar-nav {
+    width: 65%;
+    border-left: 1px solid #ccc;
+}
+
+.navbar-nav li {
+    width: 16.66%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        width: 300px;
+        padding:10px;
+    }
+
+    .navbar-header {
+        width: auto;
+    }
+
+    .navbar-nav {
+        width: auto;
+        border-left: 0;
+    }
+
+    .navbar-nav li {
+        width: auto;
+    }
+
+    .img-logo {
+        width: 80%;
+        /* padding-top: 12px; */
+    }
+
+
+}
+strong {
+    font-weight: 400;
+}
+/* main */
+
+main {
+    padding-top: 150px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+main h4 {
+    font-weight: 300;
+    color: #063e6f;
+}
+
+main p {
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.products {
+    list-style:none;
+    padding: 0;
+}
+
+.products li {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.products li:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 15px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    transform: rotate(-45deg);
+    border-color: transparent transparent #e78332 transparent;
+}
+
+/* Footer */
+
+footer {
+    background: #434343;
+    color: #ccc;
+    padding: 15px 0;
+}
+
+footer .row:nth-of-type(1) {
+    background: #242424;
+}
+
+.heading {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.subheading {
+    font-size: 1
+}
+
+.blue {
+    color: #2369c8;
+}
+
+.img-social {
+    width: 40px;
+}
+
+.ml-sm { margin-left: 15px; }
+.mr-xs { margin-right: 10px; }
+.mb-xs { margin-bottom: 10px; }
+.py-sm { padding: 15px 0; }
+.pt-xs { padding-top: 5px; }
